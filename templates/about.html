@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Jasim Web</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="navbar">
+    <nav>
+      <h2>Jasim Web</h2>
+        <a href="{{ url_for('first') }}">Home</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('contact') }}">Contact</a>
+    </nav>
+</header>
+    <div class="background"></div>
+
+<div class="about-isi-wrapper">
+  <div class="about-isi">
+      <h1 class="headabout">Hello, I'm Jasim</h1>
+      <img src="/static/images/fotogue.jpg" alt="Foto Profil" class="fotoabout">
+      <p class="textabout">I'm Muhammad Zidane Jasim, an Electrical Engineering student at Universitas Padjadjaran. I have a deep passion for modern physics and artificial intelligence (AI), and I am enthusiastic about exploring how physics principles can be combined with AI technologies to drive innovation.</p>
+      <p class="textabout">Universitas Padjadjaran is not only a place where I build a strong theoretical foundation, but also an environment that nurtures the development of both hard skills—such as engineering design and programming—and soft skills like teamwork, communication, and leadership. Through hands-on projects, laboratory work, and student activities, Unpad has helped shape me into a competent and adaptable individual, ready to face future professional challenges.</p>
+      <img src="/static/images/himpunan.jpg" alt="Foto Kegiatan" class="fotoabout">
+      <p class="textabout">Beyond my academic pursuits, I have also found a meaningful place within the Electrical Engineering Student Association of Universitas Padjadjaran (HTME Unpad). Being part of this community has allowed me to take an active role in shaping our campus environment.
+        I contributed to the organization of key events, including a technology-focused seminar and a new student orientation program, where I helped create spaces for learning, collaboration, and growth.
+        Through these experiences, I not only built essential skills in leadership, teamwork, and event planning, but also discovered the value of connecting with others and contributing to a shared vision for the future.</p>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-content">
+    <a href="https://www.instagram.com/jasimprofile/" target="_blank">
+      <i class="fa-brands fa-square-instagram"></i>
+    </a>
+    <a href="mailto:danejaseem@email.com" target="_blank">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/zidane-jasim-287422314
+    " target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/jasimisme" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
+

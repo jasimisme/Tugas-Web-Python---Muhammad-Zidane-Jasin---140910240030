@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+          <h2>Jasim Web</h2>
+            <a href="{{ url_for('first') }}">Home</a>
+            <a href="{{ url_for('about') }}">About</a>
+            <a href="{{ url_for('contact') }}">Contact</a>
+        </nav>
+    </header>
+    
+    <div class ="background"></div>
+    <div class="main-container">
+        <div class="text-container">
+          <h1>Welcome to My Personal Website</h1>
+          <p>My name is Muhammad Zidane Jasim. I am an Electrical Engineering student with a strong interest in modern physics and artificial intelligence. I enjoy exploring the intersection between scientific principles and technology, and I am passionate about building AI-driven solutions with real-world impact.</p>
+        </div>
+        <div class="photo-container">
+          <img src="/static/images/kalem.jpg" alt="Foto Profil" class="foto">
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <a href="https://www.instagram.com/jasimprofile/" target="_blank">
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <a href="mailto:danejaseem@email.com" target="_blank">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/zidane-jasim-287422314
+          " target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/jasimisme" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          
+
+        </div>
+      </footer>
+      
+
+</body>
+</html>
+

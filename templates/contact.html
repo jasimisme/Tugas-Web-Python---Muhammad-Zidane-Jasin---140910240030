@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+          <h2>Jasim Web</h2>
+            <a href="{{ url_for('first') }}">Home</a>
+            <a href="{{ url_for('about') }}">About</a>
+            <a href="{{ url_for('contact') }}">Contact</a>
+        </nav>
+    </header>
+    <div class ="background"></div>
+    <div class="wadah-utama">
+        <h1>Get In Touch</h1>
+        <div class="list-icon">
+            <div class="ig">
+                <a href="https://www.instagram.com/jasimprofile/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <p>Instagram</p>
+            </div>
+            <div class="email">
+                <a href="mailto:danejaseem@email.com" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <p>Email</p>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/zidane-jasim-287422314" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <p>LinkedIn<p>
+            </div>
+            <div class="linkedin">
+                <a href="https://github.com/jasimisme" target="blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <p>Github<p>
+            </div>
+        </div>
+</body>
+</html>
+
